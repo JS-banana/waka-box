@@ -1,11 +1,11 @@
 name: Update gist with WakaTime stats
-# on:
-#   schedule:
-#     - cron: "0 0 * * *"
 on:
-  push:
-    branches:
-      - master
+  schedule:
+    - cron: "0 0 * * *"
+# on:
+#   push:
+#     branches:
+#       - master
 
 jobs:
   update-gist:
