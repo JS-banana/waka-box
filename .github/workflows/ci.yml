@@ -5,7 +5,7 @@ name: Log Current Date For Active Action
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 0 * * *" # 每天 0：30 时运行
+    - cron: "0 12 * * *" # 每天 0：30 时运行
 
 jobs:
   build:
