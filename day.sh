@@ -10,7 +10,7 @@ echo $DATE
 
 LogNameDATE=`date '+%Y%m%d'`
 
-echo " " >> day.log
-echo "———————————————–" >> day.log
-echo "BACKUP DATE:" $(date +"%Y-%m-%d %H:%M:%S") >> day.log
-echo "———————————————– " >> day.log
+echo " " >> day.txt
+echo "———————————————–" >> day.txt
+echo "BACKUP DATE:" $(date +"%Y-%m-%d %H:%M:%S") >> day.txt
+echo "———————————————– " >> day.txt
